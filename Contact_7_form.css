@@ -1,0 +1,45 @@
+/*Style the general*/
+p {
+	color:black;
+}
+
+/*Style the whole form*/
+.wpcf7 {
+    background-color: #f7f7f7;
+    padding:1.5em;
+}
+
+/*Style the header for each section*/
+h3.section_break {
+	margin-top:40px;
+}
+
+/*Style the text under each section header*/
+p.subhead {
+	font-size:12px;
+}
+
+/*Set the buttons as the same with the submit button*/
+button {
+  text-transform: uppercase;
+  font-size: 12px;
+	margin:3px;
+  padding: 13px 20px;
+  background:#9cc44e;
+  font-weight: bold;
+  letter-spacing: 1px;
+	border:none;
+}
+
+/*Style the links on the button*/
+.entry-content a {
+	color:white;
+	text-decoration:none;
+}
+
+.entry-content a:hover {
+	color:black;
+}
+
+/*Change the inline-checkbox into a block*/
+span.wpcf7-list-item { display: block; }
