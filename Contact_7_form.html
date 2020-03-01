@@ -1,0 +1,61 @@
+<!--Metadata section-->
+<h3>Story Info</h3>
+<p class='subhead'>Please tell us the information about your story.</p>
+<hr>
+
+<label> Title*
+    [text* title placeholder"Give your story an appealing title."] </label>
+
+<label> Author(s)
+    [text authors placeholder"Please tell us your name."] </label>
+
+<label> Date*
+    [date* date id:Date] </label>
+
+
+<!--Story content section-->
+<h3 class='section_break'>Story Content</h3>
+<p class='subhead'>Now write your story!</p>
+<hr>
+
+<label> Content*
+    [textarea* content placeholder "Write to start your story."] </label>
+
+
+<!--Links to external software-->
+<h3 class='section_break'>Edit Media</h3>
+<p class='subhead'>Click on the buttons to edit your pictures/videos.</p>
+<hr>
+
+<button><a href="#">Click here to edit your pictures.</a></button>
+<button><a href="https://spark.adobe.com/sp/">Click here to edit your videos.</a></button>
+
+
+<!--Media upload section -->
+<h3 class='section_break'>Upload Media</h3>
+<p class='subhead'>Upload your pictures/videos.</p>
+<hr>
+
+<label> Upload Your Image(s)
+    [file image filetypes:jpg|jpeg|png|gif|doc|docx limit:10mb] </label>
+
+<label> Upload Your Video/Audio
+    [file video filetypes:ogg|m4a|mov|mp3|mp4|mpg|wav|wmv limit:100mb] </label>
+
+
+<!--Tags section -->
+<h3 class='section_break'>Tags</h3>
+<p class='subhead'>Select and add tags for your story.</p>
+<hr>
+
+Tags*
+    [checkbox* tags use_label_element "tag 1" "tag 2" "tag 3"]
+
+<label> Add your tags
+    [text your-tags placeholder "Type to add your tags"] </label>
+
+
+<Label>Would you like to publish your story on the virtual library?*
+    [radio option "Yes, I want to publish my story." "No, I want my story to be private."]</label>
+
+[submit "Submit My Story"]
